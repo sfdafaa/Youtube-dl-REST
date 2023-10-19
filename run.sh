@@ -1,8 +1,8 @@
 #!/bin/bash
-pip3 install -y snapd
+sudo apt install -y snapd
 
-snap install core
-snap install node --classic --channel=14
+sudo snap install core
+sudo snap install node --classic --channel=14
 
 node -v
 
@@ -12,7 +12,7 @@ pip3 install ffmpeg
 # 安装FFmpeg
 pip3 install yt-dlp
 
-yt-dlp -U
+sudo yt-dlp -U
 ffmpeg -version
 
 # 执行npm run命令
