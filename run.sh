@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 安装yt-dlp
-apt-get install ffmpeg
+pip3 install ffmpeg
 
 # 安装FFmpeg
 pip3 install yt-dlp
