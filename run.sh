@@ -1,7 +1,10 @@
 #!/bin/bash
 
-# 执行npm install命令
-npm install
+# 安装yt-dlp
+npm install -g yt-dlp
 
-# 执行npm start命令
-npm start
+# 安装FFmpeg
+npm install -g ffmpeg-static
+
+# 执行npm run命令
+npm run
