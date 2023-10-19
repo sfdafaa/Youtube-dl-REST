@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # 安装yt-dlp
-npm install -g yt-dlp
+apt-get install ffmpeg
 
 # 安装FFmpeg
-npm install -g ffmpeg-static
+pip3 install yt-dlp
 
 # 执行npm run命令
 npm run
